@@ -1,0 +1,25 @@
+name: mi_primer_proyecto_flutter
+description: "A new Flutter project."
+publish_to: 'none' # Prevents accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo_pizza_rustica.jpg
+    - assets/images/pizza_background.jpg
